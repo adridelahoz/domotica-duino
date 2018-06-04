@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    float: left;
+    /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    /* Limpiamos errores de float */
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: #fff;
+    display: block;
+    /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #3ead47;
+}
+
+.contenido {
+    padding-top: 80px;
+}
+
+h1 {
+    color: brown;
+}
+
+table {
+    border-collapse: inherit;
+    border-width: medium;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 25px;
+    height: auto;
+    margin: 5px;
+    text-align: left;
+    width: 200px;
+}
+
+.zona1 th {
+    color:white;
+    background-color:black;
+
+    border-width:medium;
+}
+
+.zona1 tr:nth-child(odd) {
+    background-color:cyan;
+    border-color: black;
+    border-width:medium;
+
+}
+
+.zona1 tr:nth-child(even) {
+    background-color:darkorange;
+    border-color: black;
+    border-width:medium;
+
+}
+
+.zona2 th {
+    color: grey;
+	background-color:white;
+    border-width:medium;
+	
+}
+
+.zona2 tr:nth-child(odd) {
+	background-color:red;
+    border-color: black;
+    border-width:medium;
+	text-align:center;
+
+}
+
+.zona2 tr:nth-child(even) {
+	background-color:green;
+	border-color: black;
+    border-width:medium;
+	text-align:center;
+}
+
+
+.luces{
+    
+    float: left;
+}
+.riego{
+    float: left;
+    margin-left: 50px;
+   }
+.consumo{
+    float: left;
+    margin-left: 50px;
+   }
